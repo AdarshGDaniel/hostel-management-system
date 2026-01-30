@@ -1,2 +1,100 @@
-# hostel-management-system
-Small Hostel Management system using ReactJS, Node, Express and SQL
+# 🏨 Hostel Management System
+
+A full-stack **Hostel Management System** built to manage student accommodation, room allocation, leave management, queries, and staff administration in a streamlined and transparent way.
+
+---
+
+## 📌 Features
+
+### 👨‍🎓 Student Module
+- Login & authentication
+- View assigned room details
+- Apply for room allocation, room change, leave, and hostel mess
+- Raise queries to hostel staff
+- View query history with status & replies
+- View leave history (approved / rejected / pending)
+- Session auto-expiry with logout popup
+
+### 👩‍💼 Staff / Admin Module
+- Approve / reject room requests
+- Approve / reject leave requests
+- Reply to student queries (close / escalate / irrelevant)
+- Live room status dashboard
+- Guest room management
+- Student search with real-time dropdown
+- Complete student request history
+- Staff action history
+
+### 🏠 Room Management
+- Room grid with capacity, occupancy, and availability
+- Color-coded room status
+- Prevent deletion of occupied rooms
+- Guest assignment with date range
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+- React.js
+- React Router DOM
+- Axios
+- React Toastify
+
+**Backend**
+- Node.js
+- Express.js
+- MySQL / MariaDB
+- JWT Authentication
+
+---
+
+## 📂 Project Structure
+
+```
+hostel-management-system/
+├── frontend/
+├── backend/
+├── README.md
+└── .gitignore
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### Backend
+```bash
+cd backend
+npm install
+npm start
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 🔐 Security
+- JWT authentication
+- Role-based access
+- Protected routes
+- Session expiry handling
+
+---
+
+## 📈 Future Enhancements
+- Email notifications
+- Reports export
+- Mobile UI
+- Analytics dashboard
+
+---
+
+## 👨‍💻 Author
+**Adarsh Daniel**
+
