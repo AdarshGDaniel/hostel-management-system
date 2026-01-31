@@ -81,7 +81,7 @@ npm run dev
 
 ### Frontend
 ```bash
-cd hostel-coordination
+cd hostel-coordination_frontend
 npm i init
 npm run dev
 ```
