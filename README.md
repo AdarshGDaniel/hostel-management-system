@@ -1,4 +1,4 @@
-# 🏨 Hostel Management System
+# Hostel Management System
 
 A full-stack **Hostel Management System** built to manage student accommodation, room allocation, leave management, queries, and staff administration in a streamlined and transparent way.
 
@@ -44,7 +44,7 @@ A full-stack **Hostel Management System** built to manage student accommodation,
 **Backend**
 - Node.js
 - Express.js
-- MySQL / MariaDB
+- MySQL (phpMyAdmin)
 - JWT Authentication
 
 ---
@@ -65,16 +65,25 @@ hostel-management-system/
 
 ### Backend
 ```bash
-cd backend
-npm install
-npm start
+<Run MySQL DB using XAMPP>
+<create a DB and add the details to .env>
+
+cd hostel_backend_node
+<make sure to add a file named .env in /hostel_backend_node/.env with the following details:>
+    <DB_HOST=hostname>
+    <DB_USER=username>
+    <DB_PASS=password>
+    <DB_NAME=db_name>
+    <JWT_SECRET=random number eg: 76348734687346874363443434343443333333333>
+npm i init
+npm run dev
 ```
 
 ### Frontend
 ```bash
-cd frontend
-npm install
-npm start
+cd hostel-coordination
+npm i init
+npm run dev
 ```
 
 ---
@@ -96,5 +105,5 @@ npm start
 ---
 
 ## 👨‍💻 Author
-**Adarsh Daniel**
+**Adarsh G Daniel**
 
